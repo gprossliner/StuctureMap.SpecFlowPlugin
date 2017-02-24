@@ -8,6 +8,7 @@ using System.Text;
 using TechTalk.SpecFlow;
 
 namespace DemoLibTests {
+
     [Binding]
     public sealed class CalculatorSteps {
         // For additional details on SpecFlow step definitions see http://go.specflow.org/doc-stepdef

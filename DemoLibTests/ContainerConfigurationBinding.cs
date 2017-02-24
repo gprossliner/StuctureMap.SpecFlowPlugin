@@ -24,7 +24,7 @@ namespace DemoLibTests {
         [Given(@"I use the default container configuration")]
         public void GivenIUseTheDefaultContainerConfiguration() {
             this.Container.Configure(c => {
-                c.For<ILogger>().Use<TestLogger>();
+                c.For<ILogger>().Use<TestLogger>().Singleton();
             });
         }
 
